@@ -1,11 +1,13 @@
 /*****************************
 colors framework
 *****************************/
+/*** text styles ***/
 .text-lime { color: #00ff00; }
 .text-red { color: #ff0000; }
 .text-black { color: #000000; }
 .text-white { color: #ffffff; }
 .text-grey { color: #808080; }
+.text-gray { color: #808080; }
 .text-silver { color: #c0c0c0; }
 .text-yellow { color: #ffff00; }
 .text-maroon { color: #800000; }
@@ -37,16 +39,96 @@ colors framework
 .text-aquamarine { color: #7fffd4; }
 .text-lightbrown { color: #cd853f; }
 .text-darkgreen { color: #254117; }
-.text-sunyellow { color: #ffe87c; }
+.text-sun { color: #ffe87c; }
 .text-winered { color: #990012; }
 .text-apricot { color: #fbceb1; }
+.text-facebook { color: #3b5998; }
+.text-twitter { color: #1da1f2; }
+.text-whatsapp { color: #4ac959; }
+.text-instablue { color: #405de6; }
+.text-instadarkpurple { color: #5851db; }
+.text-instapurple { color: #833ab4; }
+.text-instagram { color: #c13584; }
+.text-instapink { color: #e1306c }
+.text-instared { color: #fd1d1d; }
+.text-instadarkorange{ color: #f56040; }
+.text-instaorange { color: #f77737; }
+.text-instayellow { color: #fcaf45; }
+.text-instalightyellow { color: #ffdc80; }
+.text-linkedin { color: #2867b2; }
+.text-youtube { color: #FF0000; }
+.text-telegram { color: #0088cc; }
+.text-wechat { color: #7bb32e; }
+.text-skype { color: #00aff0; }
+/*** text hover styles ***/
+.text-lime.text-hover:hover { color: #05e905; }
+.text-red.text-hover:hover { color: #f20606; }
+.text-black.text-hover:hover { color: #2e2d2d; }
+.text-white.text-hover:hover { color: #f8f6f6; }
+.text-grey.text-hover:hover { color: #7b7b7b; }
+.text-gray.text-hover:hover { color: #7b7b7b; }
+.text-silver.text-hover:hover { color: #aaa6a6; }
+.text-yellow.text-hover:hover { color: #ffff50; }
+.text-maroon.text-hover:hover { color: #620202; }
+.text-purple.text-hover:hover { color: #7022b8; }
+.text-pink.text-hover:hover { color: #f2178d; }
+.text-green.text-hover:hover { color: #036803; }
+.text-olive.text-hover:hover { color: #707001; }
+.text-navy.text-hover:hover { color: #000059; }
+.text-aqua.text-hover:hover { color: #00e7e7; }
+.text-blue.text-hover:hover { color: #0202b4; }
+.text-orange.text-hover:hover { color: #f69f00; }
+.text-brown.text-hover:hover { color: #902c2c; }
+.text-chocolate.text-hover:hover { color: #663401; }
+.text-gold.text-hover:hover { color: #f0ca00; }
+.text-neongreen.text-hover:hover { color: #38e517; }
+.text-turquoise.text-hover:hover { color: #59cec2; }
+.text-skyblue.text-hover:hover { color: #0dace1; }
+.text-lavender.text-hover:hover { color: #d4d4f4; }
+.text-violet.text-hover:hover { color: #9d2f71; }
+.text-rosa.text-hover:hover { color: #ebabc7; }
+.text-lightgrey.text-hover:hover { color: #c3c1c1; }
+.text-beige.text-hover:hover { color: #e9e9c8; }
+.text-salmon.text-hover:hover { color: #da886b; }
+.text-darkviolet.text-hover:hover { color: #6e0635; }
+.text-pastelgreen.text-hover:hover { color: #42b67c; }
+.text-softgreen.text-hover:hover { color: #c6d6ab; }
+.text-darksalmon.text-hover:hover { color: #f17373; }
+.text-bluegrey.text-hover:hover { color: #b4d1f0; }
+.text-aquamarine.text-hover:hover { color: #76f0c7; }
+.text-lightbrown.text-hover:hover { color: #bc7b3b; }
+.text-darkgreen.text-hover:hover { color: #19300e; }
+.text-sun.text-hover:hover { color: #ffe364; }
+.text-winered.text-hover:hover { color: #830312; }
+.text-apricot.text-hover:hover { color: #fabd95; }
+.text-facebook.text-hover:hover { color: #2c4881; }
+.text-twitter.text-hover:hover { color: #3094d1; }
+.text-whatsapp.text-hover:hover { color: #42bc51; }
+.text-instablue.text-hover:hover { color: #324fd8; }
+.text-instadarkpurple.text-hover:hover { color: #4f49c9; }
+.text-instapurple.text-hover:hover { color: #7223a7; }
+.text-instagram.text-hover:hover { color: #ab2973; }
+.text-instapink.text-hover:hover { color: #c31d55; }
+.text-instared.text-hover:hover { color: #de0202; }
+.text-instadarkorange.text-hover:hover{ color: #e95231; }
+.text-instaorange.text-hover:hover { color: #ff671c; }
+.text-instayellow.text-hover:hover { color: #fca731; }
+.text-instalightyellow.text-hover:hover { color: #ffd360; }
+.text-linkedin.text-hover:hover { color: #18569e; }
+.text-youtube.text-hover:hover { color: #f20606; }
+.text-telegram.text-hover:hover { color: #0878af; }
+.text-wechat.text-hover:hover { color: #70a723; }
+.text-skype.text-hover:hover { color: #069dd6; }
 
 
+
+/*** button styles ***/
 .btn-lime { background-color: #00ff00; color: #000000; }
 .btn-red { background-color: #ff0000; color: #ffffff; }
 .btn-black { background-color: #000000; color: #ffffff; }
 .btn-white { background-color: #ffffff; color: #000000; }
 .btn-grey { background-color: #808080; color: #ffffff; }
+.btn-gray { background-color: #808080; color: #ffffff; }
 .btn-silver { background-color: #c0c0c0; color: #000000; }
 .btn-yellow { background-color: #ffff00; color: #000000; }
 .btn-maroon { background-color: #800000; color: #ffffff; }
@@ -78,16 +160,96 @@ colors framework
 .btn-aquamarine { background-color: #7fffd4; color: #000000; }
 .btn-lightbrown { background-color: #cd853f; color: #ffffff; }
 .btn-darkgreen { background-color: #254117; color: #ffffff; }
-.btn-sunyellow { background-color: #ffe87c; color: #000000; }
+.btn-sun { background-color: #ffe87c; color: #000000; }
 .btn-winered { background-color: #990012; color: #ffffff; }
 .btn-apricot { background-color: #fbceb1; color: #000000; }
+.btn-facebook { background-color: #3b5998; color: #ffffff; }
+.btn-twitter { background-color: #1da1f2; color: #ffffff; }
+.btn-whatsapp { background-color: #4ac959; color: #ffffff; }
+.btn-instablue { background-color: #405de6; color: #ffffff; }
+.btn-instadarkpurple { background-color: #5851db; color: #ffffff; }
+.btn-instapurple { background-color: #833ab4; color: #ffffff; }
+.btn-instagram { background-color: #c13584; color: #ffffff; }
+.btn-instapink { background-color: #e1306c; color: #ffffff; }
+.btn-instared { background-color: #fd1d1d; color: #ffffff; }
+.btn-instadarkorange{ background-color: #f56040; color: #ffffff; }
+.btn-instaorange { background-color: #f77737; color: #ffffff; }
+.btn-instayellow { background-color: #fcaf45; color: #000000; }
+.btn-instalightyellow { background-color: #ffdc80; color: #000000; }
+.btn-linkedin { background-color: #2867b2; color: #ffffff; }
+.btn-youtube { background-color: #FF0000; color: #ffffff; }
+.btn-telegram { background-color: #0088cc; color: #ffffff; }
+.btn-wechat { background-color: #7bb32e; color: #ffffff; }
+.btn-skype { background-color: #00aff0; color: #ffffff; }
+/*** button hover styles ***/
+.btn-lime.btn-hover:hover { background-color: #05e905; color: #000000; }
+.btn-red.btn-hover:hover { background-color: #f20606; color: #ffffff; }
+.btn-black.btn-hover:hover { background-color: #2e2d2d; color: #ffffff; }
+.btn-white.btn-hover:hover { background-color: #f8f6f6; color: #000000; }
+.btn-grey.btn-hover:hover { background-color: #7b7b7b; color: #ffffff; }
+.btn-gray.btn-hover:hover { background-color: #7b7b7b; color: #ffffff; }
+.btn-silver.btn-hover:hover { background-color: #aaa6a6; color: #000000; }
+.btn-yellow.btn-hover:hover { background-color: #ffff50; color: #000000; }
+.btn-maroon.btn-hover:hover { background-color: #620202; color: #ffffff; }
+.btn-purple.btn-hover:hover { background-color: #7022b8; color: #ffffff; }
+.btn-pink.btn-hover:hover { background-color: #f2178d; color: #ffffff; }
+.btn-green.btn-hover:hover { background-color: #036803; color: #ffffff; }
+.btn-olive.btn-hover:hover { background-color: #707001; color: #ffffff; }
+.btn-navy.btn-hover:hover { background-color: #000059; color: #ffffff; }
+.btn-aqua.btn-hover:hover { background-color: #00e7e7; color: #000000; }
+.btn-blue.btn-hover:hover { background-color: #0202b4; color: #ffffff; }
+.btn-orange.btn-hover:hover { background-color: #f69f00; color: #ffffff; }
+.btn-brown.btn-hover:hover { background-color: #902c2c; color: #ffffff; }
+.btn-chocolate.btn-hover:hover { background-color: #663401; color: #ffffff; }
+.btn-gold.btn-hover:hover { background-color: #f0ca00; color: #000000; }
+.btn-neongreen.btn-hover:hover { background-color: #38e517; color: #000000; }
+.btn-turquoise.btn-hover:hover { background-color: #59cec2; color: #000000; }
+.btn-skyblue.btn-hover:hover { background-color: #0dace1; color: #000000; }
+.btn-lavender.btn-hover:hover { background-color: #d4d4f4; color: #000000; }
+.btn-violet.btn-hover:hover { background-color: #9d2f71; color: #ffffff; }
+.btn-rosa.btn-hover:hover { background-color: #ebabc7; color: #000000; }
+.btn-lightgrey.btn-hover:hover { background-color: #c3c1c1; color: #000000; }
+.btn-beige.btn-hover:hover { background-color: #e9e9c8; color: #000000; }
+.btn-salmon.btn-hover:hover { background-color: #da886b; color: #ffffff; }
+.btn-darkviolet.btn-hover:hover { background-color: #6e0635; color: #ffffff; }
+.btn-pastelgreen.btn-hover:hover { background-color: #42b67c; color: #000000; }
+.btn-softgreen.btn-hover:hover { background-color: #c6d6ab; color: #000000; }
+.btn-darksalmon.btn-hover:hover { background-color: #f17373; color: #ffffff; }
+.btn-bluegrey.btn-hover:hover { background-color: #b4d1f0; color: #000000; }
+.btn-aquamarine.btn-hover:hover { background-color: #76f0c7; color: #000000; }
+.btn-lightbrown.btn-hover:hover { background-color: #bc7b3b; color: #ffffff; }
+.btn-darkgreen.btn-hover:hover { background-color: #19300e; color: #ffffff; }
+.btn-sun.btn-hover:hover { background-color: #ffe364; color: #000000; }
+.btn-winered.btn-hover:hover { background-color: #830312; color: #ffffff; }
+.btn-apricot.btn-hover:hover { background-color: #fabd95; color: #000000; }
+.btn-facebook.btn-hover:hover { background-color: #2c4881; color: #ffffff; }
+.btn-twitter.btn-hover:hover { background-color: #3094d1; color: #ffffff; }
+.btn-whatsapp.btn-hover:hover { background-color: #42bc51; color: #ffffff; }
+.btn-instablue.btn-hover:hover { background-color: #324fd8; color: #ffffff; }
+.btn-instadarkpurple.btn-hover:hover { background-color: #4f49c9; color: #ffffff; }
+.btn-instapurple.btn-hover:hover { background-color: #7223a7; color: #ffffff; }
+.btn-instagram.btn-hover:hover { background-color: #ab2973; color: #ffffff; }
+.btn-instapink.btn-hover:hover { background-color: #c31d55; color: #ffffff; }
+.btn-instared.btn-hover:hover { background-color: #de0202; color: #ffffff; }
+.btn-instadarkorange.btn-hover:hover{ background-color: #e95231; color: #ffffff; }
+.btn-instaorange.btn-hover:hover { background-color: #ff671c; color: #ffffff; }
+.btn-instayellow.btn-hover:hover { background-color: #fca731; color: #000000; }
+.btn-instalightyellow.btn-hover:hover { background-color: #ffd360; color: #000000; }
+.btn-linkedin.btn-hover:hover { background-color: #18569e; color: #ffffff; }
+.btn-youtube.btn-hover:hover { background-color: #f20606; color: #ffffff; }
+.btn-telegram.btn-hover:hover { background-color: #0878af; color: #ffffff; }
+.btn-wechat.btn-hover:hover { background-color: #70a723; color: #ffffff; }
+.btn-skype.btn-hover:hover { background-color: #069dd6; color: #ffffff; }
 
 
+
+/*** background styles ***/
 .bg-lime { background-color: #00ff00 !important; }
 .bg-red { background-color: #ff0000 !important; }
 .bg-black { background-color: #000000 !important; }
 .bg-white { background-color: #ffffff !important; }
 .bg-grey { background-color: #808080 !important; }
+.bg-gray { background-color: #808080 !important; }
 .bg-silver { background-color: #c0c0c0 !important; }
 .bg-yellow { background-color: #ffff00 !important; }
 .bg-maroon { background-color: #800000 !important; }
@@ -119,6 +281,224 @@ colors framework
 .bg-aquamarine { background-color: #7fffd4 !important; }
 .bg-lightbrown { background-color: #cd853f !important; }
 .bg-darkgreen { background-color: #254117 !important; }
-.bg-sunyellow { background-color: #ffe87c !important; }
+.bg-sun { background-color: #ffe87c !important; }
 .bg-winered { background-color: #990012 !important; }
 .bg-apricot { background-color: #fbceb1 !important; }
+.bg-facebook { background-color: #3b5998 !important; }
+.bg-twitter { background-color: #1da1f2 !important; }
+.bg-whatsapp { background-color: #4ac959 !important; }
+.bg-instablue { background-color: #405de6 !important; }
+.bg-instadarkpurple { background-color: #5851db !important; }
+.bg-instapurple { background-color: #833ab4 !important; }
+.bg-instagram { background-color: #c13584 !important; }
+.bg-instapink { background-color: #e1306c !important; }
+.bg-instared { background-color: #fd1d1d !important; }
+.bg-instadarkorange{ background-color: #f56040 !important; }
+.bg-instaorange { background-color: #f77737 !important; }
+.bg-instayellow { background-color: #fcaf45 !important; }
+.bg-instalightyellow { background-color: #ffdc80 !important; }
+.bg-linkedin { background-color: #2867b2 !important; }
+.bg-youtube { background-color: #FF0000 !important; }
+.bg-telegram { background-color: #0088cc !important; }
+.bg-wechat { background-color: #7bb32e !important; }
+.bg-skype { background-color: #00aff0 !important; }
+/*** background hover styles ***/
+.bg-lime.bg-hover:hover { background-color: #05e905 !important; }
+.bg-red.bg-hover:hover { background-color: #f20606 !important; }
+.bg-black.bg-hover:hover { background-color: #2e2d2d !important; }
+.bg-white.bg-hover:hover { background-color: #f8f6f6 !important; }
+.bg-grey.bg-hover:hover { background-color: #7b7b7b !important; }
+.bg-gray.bg-hover:hover { background-color: #7b7b7b !important; }
+.bg-silver.bg-hover:hover { background-color: #aaa6a6 !important; }
+.bg-yellow.bg-hover:hover { background-color: #ffff50 !important; }
+.bg-maroon.bg-hover:hover { background-color: #620202 !important; }
+.bg-purple.bg-hover:hover { background-color: #7022b8 !important; }
+.bg-pink.bg-hover:hover { background-color: #f2178d !important; }
+.bg-green.bg-hover:hover { background-color: #036803 !important; }
+.bg-olive.bg-hover:hover { background-color: #707001 !important; }
+.bg-navy.bg-hover:hover { background-color: #000059 !important; }
+.bg-aqua.bg-hover:hover { background-color: #00e7e7 !important; }
+.bg-blue.bg-hover:hover { background-color: #0202b4 !important; }
+.bg-orange.bg-hover:hover { background-color: #f69f00 !important; }
+.bg-brown.bg-hover:hover { background-color: #902c2c !important; }
+.bg-chocolate.bg-hover:hover { background-color: #663401 !important; }
+.bg-gold.bg-hover:hover { background-color: #f0ca00 !important; }
+.bg-neongreen.bg-hover:hover { background-color: #38e517 !important; }
+.bg-turquoise.bg-hover:hover { background-color: #59cec2 !important; }
+.bg-skyblue.bg-hover:hover { background-color: #0dace1 !important; }
+.bg-lavender.bg-hover:hover { background-color: #d4d4f4 !important; }
+.bg-violet.bg-hover:hover { background-color: #9d2f71 !important; }
+.bg-rosa.bg-hover:hover { background-color: #ebabc7 !important; }
+.bg-lightgrey.bg-hover:hover { background-color: #c3c1c1 !important; }
+.bg-beige.bg-hover:hover { background-color: #e9e9c8 !important; }
+.bg-salmon.bg-hover:hover { background-color: #da886b !important; }
+.bg-darkviolet.bg-hover:hover { background-color: #6e0635 !important; }
+.bg-pastelgreen.bg-hover:hover { background-color: #42b67c !important; }
+.bg-softgreen.bg-hover:hover { background-color: #c6d6ab !important; }
+.bg-darksalmon.bg-hover:hover { background-color: #f17373 !important; }
+.bg-bluegrey.bg-hover:hover { background-color: #b4d1f0 !important; }
+.bg-aquamarine.bg-hover:hover { background-color: #76f0c7 !important; }
+.bg-lightbrown.bg-hover:hover { background-color: #bc7b3b !important; }
+.bg-darkgreen.bg-hover:hover { background-color: #19300e !important; }
+.bg-sun.bg-hover:hover { background-color: #ffe364 !important; }
+.bg-winered.bg-hover:hover { background-color: #830312 !important; }
+.bg-apricot.bg-hover:hover { background-color: #fabd95 !important; }
+.bg-facebook.bg-hover:hover { background-color: #2c4881 !important; }
+.bg-twitter.bg-hover:hover { background-color: #3094d1 !important; }
+.bg-whatsapp.bg-hover:hover { background-color: #42bc51 !important; }
+.bg-instablue.bg-hover:hover { background-color: #324fd8 !important; }
+.bg-instadarkpurple.bg-hover:hover { background-color: #4f49c9 !important; }
+.bg-instapurple.bg-hover:hover { background-color: #7223a7 !important; }
+.bg-instagram.bg-hover:hover { background-color: #ab2973 !important; }
+.bg-instapink.bg-hover:hover { background-color: #c31d55 !important; }
+.bg-instared.bg-hover:hover { background-color: #de0202 !important; }
+.bg-instadarkorange.bg-hover:hover{ background-color: #e95231 !important; }
+.bg-instaorange.bg-hover:hover { background-color: #ff671c !important; }
+.bg-instayellow.bg-hover:hover { background-color: #fca731 !important; }
+.bg-instalightyellow.bg-hover:hover { background-color: #ffd360 !important; }
+.bg-linkedin.bg-hover:hover { background-color: #18569e !important; }
+.bg-youtube.bg-hover:hover { background-color: #f20606 !important; }
+.bg-telegram.bg-hover:hover { background-color: #0878af !important; }
+.bg-wechat.bg-hover:hover { background-color: #70a723 !important; }
+.bg-skype.bg-hover:hover { background-color: #069dd6 !important; }
+
+
+
+/*** outline styles ***/
+.btn-outline { background-color: transparent; border-width: 1px; border-style: solid;}
+.btn-lime.btn-outline { border-color: #00ff00; color: #00ff00; }
+.btn-red.btn-outline { border-color: #ff0000; color: #ff0000; }
+.btn-black.btn-outline { border-color: #000000; color: #000000; }
+.btn-white.btn-outline { border-color: #ffffff; color: #ffffff; }
+.btn-grey.btn-outline { border-color: #808080; color: #808080; }
+.btn-gray.btn-outline { border-color: #808080; color: #808080; }
+.btn-silver.btn-outline { border-color: #c0c0c0; color: #c0c0c0; }
+.btn-yellow.btn-outline { border-color: #ffff00; color: #ffff00; }
+.btn-maroon.btn-outline { border-color: #800000; color: #800000; }
+.btn-purple.btn-outline { border-color: #8a2be2; color: #8a2be2; }
+.btn-pink.btn-outline { border-color: #ff1493; color: #ff1493; }
+.btn-green.btn-outline { border-color: #008000; color: #008000; }
+.btn-olive.btn-outline { border-color: #808000; color: #808000; }
+.btn-navy.btn-outline { border-color: #000080; color: #000080; }
+.btn-aqua.btn-outline { border-color: #00ffff; color: #00ffff; }
+.btn-blue.btn-outline { border-color: #0000ff; color: #0000ff; }
+.btn-orange.btn-outline { border-color: #ffa500; color: #ffa500; }
+.btn-brown.btn-outline { border-color: #a52a2a; color: #a52a2a; }
+.btn-chocolate.btn-outline { border-color: #7b3f00; color: #7b3f00; }
+.btn-gold.btn-outline { border-color: #ffd700; color: #ffd700; }
+.btn-neongreen.btn-outline { border-color: #39ff14; color: #39ff14; }
+.btn-turquoise.btn-outline { border-color: #40e0d0; color: #40e0d0; }
+.btn-skyblue.btn-outline { border-color: #00bfff; color: #00bfff; }
+.btn-lavender.btn-outline { border-color: #e6e6fa; color: #e6e6fa; }
+.btn-violet.btn-outline { border-color: #bb3385; color: #bb3385; }
+.btn-rosa.btn-outline { border-color: #ffbcd9; color: #ffbcd9; }
+.btn-lightgrey.btn-outline { border-color: #d3d3d3; color: #d3d3d3; }
+.btn-beige.btn-outline { border-color: #f5f5dc; color: #f5f5dc; }
+.btn-salmon.btn-outline { border-color: #e9967a; color: #e9967a; }
+.btn-darkviolet.btn-outline { border-color: #420420; color: #420420; }
+.btn-pastelgreen.btn-outline { border-color: #5ac18e; color: #5ac18e; }
+.btn-softgreen.btn-outline { border-color: #dcedc1; color: #dcedc1; }
+.btn-darksalmon.btn-outline { border-color: #ff7373; color: #ff7373; }
+.btn-bluegrey.btn-outline { border-color: #c6e2ff; color: #c6e2ff; }
+.btn-aquamarine.btn-outline { border-color: #7fffd4; color: #7fffd4; }
+.btn-lightbrown.btn-outline { border-color: #cd853f; color: #cd853f; }
+.btn-darkgreen.btn-outline { border-color: #254117; color: #254117; }
+.btn-sun.btn-outline { border-color: #ffe87c; color: #ffe87c; }
+.btn-winered.btn-outline { border-color: #990012; color: #990012; }
+.btn-apricot.btn-outline { border-color: #fbceb1; color: #fbceb1; }
+.btn-facebook.btn-outline { border-color: #3b5998; color: #3b5998; }
+.btn-twitter.btn-outline { border-color: #1da1f2; color: #1da1f2; }
+.btn-whatsapp.btn-outline { border-color: #4ac959; color: #4ac959; }
+.btn-instablue.btn-outline { border-color: #405de6; color: #405de6; }
+.btn-instadarkpurple.btn-outline { border-color: #5851db; color: #5851db; }
+.btn-instapurple.btn-outline { border-color: #833ab4; color: #833ab4; }
+.btn-instagram.btn-outline { border-color: #c13584; color: #c13584; }
+.btn-instapink.btn-outline { border-color: #e1306c; color: #e1306c; }
+.btn-instared.btn-outline { border-color: #fd1d1d; color: #fd1d1d; }
+.btn-instadarkorange.btn-outline{ border-color: #f56040; color: #f56040; }
+.btn-instaorange.btn-outline { border-color: #f77737; color: #f77737; }
+.btn-instayellow.btn-outline { border-color: #fcaf45; color: #fcaf45; }
+.btn-instalightyellow.btn-outline { border-color: #ffdc80; color: #ffdc80; }
+.btn-linkedin.btn-outline { border-color: #2867b2; color: #2867b2; }
+.btn-youtube.btn-outline { border-color: #FF0000; color: #FF0000; }
+.btn-telegram.btn-outline { border-color: #0088cc; color: #0088cc; }
+.btn-wechat.btn-outline { border-color: #7bb32e; color: #7bb32e; }
+.btn-skype.btn-outline { border-color: #00aff0; color: #00aff0; }
+/*** outline hover styles ***/
+.btn-lime.btn-out.btn-outline.btn-hover:hover { background-color: #05e905; color: #000000; }
+.btn-red.btn-outline.btn-hover:hover { background-color: #f20606; color: #ffffff; }
+.btn-black.btn-outline.btn-hover:hover { background-color: #2e2d2d; color: #ffffff; }
+.btn-white.btn-outline.btn-hover:hover { background-color: #f8f6f6; color: #000000; }
+.btn-grey.btn-outline.btn-hover:hover { background-color: #7b7b7b; color: #ffffff; }
+.btn-gray.btn-outline.btn-hover:hover { background-color: #7b7b7b; color: #ffffff; }
+.btn-silver.btn-outline.btn-hover:hover { background-color: #aaa6a6; color: #000000; }
+.btn-yellow.btn-outline.btn-hover:hover { background-color: #ffff50; color: #000000; }
+.btn-maroon.btn-outline.btn-hover:hover { background-color: #620202; color: #ffffff; }
+.btn-purple.btn-outline.btn-hover:hover { background-color: #7022b8; color: #ffffff; }
+.btn-pink.btn-outline.btn-hover:hover { background-color: #f2178d; color: #ffffff; }
+.btn-green.btn-outline.btn-hover:hover { background-color: #036803; color: #ffffff; }
+.btn-olive.btn-outline.btn-hover:hover { background-color: #707001; color: #ffffff; }
+.btn-navy.btn-outline.btn-hover:hover { background-color: #000059; color: #ffffff; }
+.btn-aqua.btn-outline.btn-hover:hover { background-color: #00e7e7; color: #000000; }
+.btn-blue.btn-outline.btn-hover:hover { background-color: #0202b4; color: #ffffff; }
+.btn-orange.btn-outline.btn-hover:hover { background-color: #f69f00; color: #ffffff; }
+.btn-brown.btn-outline.btn-hover:hover { background-color: #902c2c; color: #ffffff; }
+.btn-chocolate.btn-outline.btn-hover:hover { background-color: #663401; color: #ffffff; }
+.btn-gold.btn-outline.btn-hover:hover { background-color: #f0ca00; color: #000000; }
+.btn-neongreen.btn-outline.btn-hover:hover { background-color: #38e517; color: #000000; }
+.btn-turquoise.btn-outline.btn-hover:hover { background-color: #59cec2; color: #000000; }
+.btn-skyblue.btn-outline.btn-hover:hover { background-color: #0dace1; color: #000000; }
+.btn-lavender.btn-outline.btn-hover:hover { background-color: #d4d4f4; color: #000000; }
+.btn-violet.btn-outline.btn-hover:hover { background-color: #9d2f71; color: #ffffff; }
+.btn-rosa.btn-outline.btn-hover:hover { background-color: #ebabc7; color: #000000; }
+.btn-lightgrey.btn-outline.btn-hover:hover { background-color: #c3c1c1; color: #000000; }
+.btn-beige.btn-outline.btn-hover:hover { background-color: #e9e9c8; color: #000000; }
+.btn-salmon.btn-outline.btn-hover:hover { background-color: #da886b; color: #ffffff; }
+.btn-darkviolet.btn-outline.btn-hover:hover { background-color: #6e0635; color: #ffffff; }
+.btn-pastelgreen.btn-outline.btn-hover:hover { background-color: #42b67c; color: #000000; }
+.btn-softgreen.btn-outline.btn-hover:hover { background-color: #c6d6ab; color: #000000; }
+.btn-darksalmon.btn-outline.btn-hover:hover { background-color: #f17373; color: #ffffff; }
+.btn-bluegrey.btn-outline.btn-hover:hover { background-color: #b4d1f0; color: #000000; }
+.btn-aquamarine.btn-outline.btn-hover:hover { background-color: #76f0c7; color: #000000; }
+.btn-lightbrown.btn-outline.btn-hover:hover { background-color: #bc7b3b; color: #ffffff; }
+.btn-darkgreen.btn-outline.btn-hover:hover { background-color: #19300e; color: #ffffff; }
+.btn-sun.btn-outline.btn-hover:hover { background-color: #ffe364; color: #000000; }
+.btn-winered.btn-outline.btn-hover:hover { background-color: #830312; color: #ffffff; }
+.btn-apricot.btn-outline.btn-hover:hover { background-color: #fabd95; color: #000000; }
+.btn-facebook.btn-outline.btn-hover:hover { background-color: #2c4881; color: #ffffff; }
+.btn-twitter.btn-outline.btn-hover:hover { background-color: #3094d1; color: #ffffff; }
+.btn-whatsapp.btn-outline.btn-hover:hover { background-color: #42bc51; color: #ffffff; }
+.btn-instablue.btn-outline.btn-hover:hover { background-color: #324fd8; color: #ffffff; }
+.btn-instadarkpurple.btn-outline.btn-hover:hover { background-color: #4f49c9; color: #ffffff; }
+.btn-instapurple.btn-outline.btn-hover:hover { background-color: #7223a7; color: #ffffff; }
+.btn-instagram.btn-outline.btn-hover:hover { background-color: #ab2973; color: #ffffff; }
+.btn-instapink.btn-outline.btn-hover:hover { background-color: #c31d55; color: #ffffff; }
+.btn-instared.btn-outline.btn-hover:hover { background-color: #de0202; color: #ffffff; }
+.btn-instadarkorange.btn-outline.btn-hover:hover { background-color: #e95231; color: #ffffff; }
+.btn-instaorange.btn-outline.btn-hover:hover { background-color: #ff671c; color: #ffffff; }
+.btn-instayellow.btn-outline.btn-hover:hover { background-color: #fca731; color: #000000; }
+.btn-instalightyellow.btn-outline.btn-hover:hover { background-color: #ffd360; color: #000000; }
+.btn-linkedin.btn-outline.btn-hover:hover { background-color: #18569e; color: #ffffff; }
+.btn-youtube.btn-outline.btn-hover:hover { background-color: #f20606; color: #ffffff; }
+.btn-telegram.btn-outline.btn-hover:hover { background-color: #0878af; color: #ffffff; }
+.btn-wechat.btn-outline.btn-hover:hover { background-color: #70a723; color: #ffffff; }
+.btn-skype.btn-outline.btn-hover:hover { background-color: #069dd6; color: #ffffff; }
+
+
+
+/*** some css for appearance ***/
+.demo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin: 20px;
+}
+
+.demo-grid > div {
+    background-color: #f8efef;
+    padding: 20px;
+}
+
+.demo-grid .only-text {
+    grid-column: 1;
+}
