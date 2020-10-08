@@ -1,6 +1,15 @@
 /*****************************
 colors framework
 *****************************/
+
+/*** variables ***/
+:root {
+    --blue: #0000ff;
+    --red: #ff0000;
+    --green: #008000;
+    --orange: #ffa500;
+}
+
 /*** text styles ***/
 .text-lime { color: #00ff00; }
 .text-red { color: #ff0000; }
@@ -240,8 +249,6 @@ colors framework
 .btn-telegram.btn-hover:hover { background-color: #0878af; color: #ffffff; }
 .btn-wechat.btn-hover:hover { background-color: #70a723; color: #ffffff; }
 .btn-skype.btn-hover:hover { background-color: #069dd6; color: #ffffff; }
-
-
 
 /*** background styles ***/
 .bg-lime { background-color: #00ff00; }
