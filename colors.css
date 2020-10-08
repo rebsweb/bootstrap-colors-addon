@@ -244,123 +244,123 @@ colors framework
 
 
 /*** background styles ***/
-.bg-lime { background-color: #00ff00 !important; }
-.bg-red { background-color: #ff0000 !important; }
-.bg-black { background-color: #000000 !important; }
-.bg-white { background-color: #ffffff !important; }
-.bg-grey { background-color: #808080 !important; }
-.bg-gray { background-color: #808080 !important; }
-.bg-silver { background-color: #c0c0c0 !important; }
-.bg-yellow { background-color: #ffff00 !important; }
-.bg-maroon { background-color: #800000 !important; }
-.bg-purple { background-color: #8a2be2 !important; }
-.bg-pink { background-color: #ff1493 !important; }
-.bg-green { background-color: #008000 !important; }
-.bg-olive { background-color: #808000 !important; }
-.bg-navy { background-color: #000080 !important; }
-.bg-aqua { background-color: #00ffff !important; }
-.bg-blue { background-color: #0000ff !important; }
-.bg-orange { background-color: #ffa500 !important; }
-.bg-brown { background-color: #a52a2a !important; }
-.bg-chocolate { background-color: #7b3f00 !important; }
-.bg-gold { background-color: #ffd700 !important; }
-.bg-neongreen { background-color: #39ff14 !important; }
-.bg-turquoise { background-color: #40e0d0 !important; }
-.bg-skyblue { background-color: #00bfff !important; }
-.bg-lavender { background-color: #e6e6fa !important; }
-.bg-violet { background-color: #bb3385 !important; }
-.bg-rosa { background-color: #ffbcd9 !important; }
-.bg-lightgrey { background-color: #d3d3d3 !important; }
-.bg-beige { background-color: #f5f5dc !important; }
-.bg-salmon { background-color: #e9967a !important; }
-.bg-darkviolet { background-color: #420420 !important; }
-.bg-pastelgreen { background-color: #5ac18e !important; }
-.bg-softgreen { background-color: #dcedc1 !important; }
-.bg-darksalmon { background-color: #ff7373 !important; }
-.bg-bluegrey { background-color: #c6e2ff !important; }
-.bg-aquamarine { background-color: #7fffd4 !important; }
-.bg-lightbrown { background-color: #cd853f !important; }
-.bg-darkgreen { background-color: #254117 !important; }
-.bg-sun { background-color: #ffe87c !important; }
-.bg-winered { background-color: #990012 !important; }
-.bg-apricot { background-color: #fbceb1 !important; }
-.bg-facebook { background-color: #3b5998 !important; }
-.bg-twitter { background-color: #1da1f2 !important; }
-.bg-whatsapp { background-color: #4ac959 !important; }
-.bg-instablue { background-color: #405de6 !important; }
-.bg-instadarkpurple { background-color: #5851db !important; }
-.bg-instapurple { background-color: #833ab4 !important; }
-.bg-instagram { background-color: #c13584 !important; }
-.bg-instapink { background-color: #e1306c !important; }
-.bg-instared { background-color: #fd1d1d !important; }
-.bg-instadarkorange{ background-color: #f56040 !important; }
-.bg-instaorange { background-color: #f77737 !important; }
-.bg-instayellow { background-color: #fcaf45 !important; }
-.bg-instalightyellow { background-color: #ffdc80 !important; }
-.bg-linkedin { background-color: #2867b2 !important; }
-.bg-youtube { background-color: #FF0000 !important; }
-.bg-telegram { background-color: #0088cc !important; }
-.bg-wechat { background-color: #7bb32e !important; }
-.bg-skype { background-color: #00aff0 !important; }
+.bg-lime { background-color: #00ff00; }
+.bg-red { background-color: #ff0000; }
+.bg-black { background-color: #000000; }
+.bg-white { background-color: #ffffff; }
+.bg-grey { background-color: #808080; }
+.bg-gray { background-color: #808080; }
+.bg-silver { background-color: #c0c0c0; }
+.bg-yellow { background-color: #ffff00; }
+.bg-maroon { background-color: #800000; }
+.bg-purple { background-color: #8a2be2; }
+.bg-pink { background-color: #ff1493; }
+.bg-green { background-color: #008000; }
+.bg-olive { background-color: #808000; }
+.bg-navy { background-color: #000080; }
+.bg-aqua { background-color: #00ffff; }
+.bg-blue { background-color: #0000ff; }
+.bg-orange { background-color: #ffa500; }
+.bg-brown { background-color: #a52a2a; }
+.bg-chocolate { background-color: #7b3f00; }
+.bg-gold { background-color: #ffd700; }
+.bg-neongreen { background-color: #39ff14; }
+.bg-turquoise { background-color: #40e0d0; }
+.bg-skyblue { background-color: #00bfff; }
+.bg-lavender { background-color: #e6e6fa; }
+.bg-violet { background-color: #bb3385; }
+.bg-rosa { background-color: #ffbcd9; }
+.bg-lightgrey { background-color: #d3d3d3; }
+.bg-beige { background-color: #f5f5dc; }
+.bg-salmon { background-color: #e9967a; }
+.bg-darkviolet { background-color: #420420; }
+.bg-pastelgreen { background-color: #5ac18e; }
+.bg-softgreen { background-color: #dcedc1; }
+.bg-darksalmon { background-color: #ff7373; }
+.bg-bluegrey { background-color: #c6e2ff; }
+.bg-aquamarine { background-color: #7fffd4; }
+.bg-lightbrown { background-color: #cd853f; }
+.bg-darkgreen { background-color: #254117; }
+.bg-sun { background-color: #ffe87c; }
+.bg-winered { background-color: #990012; }
+.bg-apricot { background-color: #fbceb1; }
+.bg-facebook { background-color: #3b5998; }
+.bg-twitter { background-color: #1da1f2; }
+.bg-whatsapp { background-color: #4ac959; }
+.bg-instablue { background-color: #405de6; }
+.bg-instadarkpurple { background-color: #5851db; }
+.bg-instapurple { background-color: #833ab4; }
+.bg-instagram { background-color: #c13584; }
+.bg-instapink { background-color: #e1306c; }
+.bg-instared { background-color: #fd1d1d; }
+.bg-instadarkorange{ background-color: #f56040; }
+.bg-instaorange { background-color: #f77737; }
+.bg-instayellow { background-color: #fcaf45; }
+.bg-instalightyellow { background-color: #ffdc80; }
+.bg-linkedin { background-color: #2867b2; }
+.bg-youtube { background-color: #FF0000; }
+.bg-telegram { background-color: #0088cc; }
+.bg-wechat { background-color: #7bb32e; }
+.bg-skype { background-color: #00aff0; }
 /*** background hover styles ***/
-.bg-lime.bg-hover:hover { background-color: #05e905 !important; }
-.bg-red.bg-hover:hover { background-color: #f20606 !important; }
-.bg-black.bg-hover:hover { background-color: #2e2d2d !important; }
-.bg-white.bg-hover:hover { background-color: #f8f6f6 !important; }
-.bg-grey.bg-hover:hover { background-color: #7b7b7b !important; }
-.bg-gray.bg-hover:hover { background-color: #7b7b7b !important; }
-.bg-silver.bg-hover:hover { background-color: #aaa6a6 !important; }
-.bg-yellow.bg-hover:hover { background-color: #ffff50 !important; }
-.bg-maroon.bg-hover:hover { background-color: #620202 !important; }
-.bg-purple.bg-hover:hover { background-color: #7022b8 !important; }
-.bg-pink.bg-hover:hover { background-color: #f2178d !important; }
-.bg-green.bg-hover:hover { background-color: #036803 !important; }
-.bg-olive.bg-hover:hover { background-color: #707001 !important; }
-.bg-navy.bg-hover:hover { background-color: #000059 !important; }
-.bg-aqua.bg-hover:hover { background-color: #00e7e7 !important; }
-.bg-blue.bg-hover:hover { background-color: #0202b4 !important; }
-.bg-orange.bg-hover:hover { background-color: #f69f00 !important; }
-.bg-brown.bg-hover:hover { background-color: #902c2c !important; }
-.bg-chocolate.bg-hover:hover { background-color: #663401 !important; }
-.bg-gold.bg-hover:hover { background-color: #f0ca00 !important; }
-.bg-neongreen.bg-hover:hover { background-color: #38e517 !important; }
-.bg-turquoise.bg-hover:hover { background-color: #59cec2 !important; }
-.bg-skyblue.bg-hover:hover { background-color: #0dace1 !important; }
-.bg-lavender.bg-hover:hover { background-color: #d4d4f4 !important; }
-.bg-violet.bg-hover:hover { background-color: #9d2f71 !important; }
-.bg-rosa.bg-hover:hover { background-color: #ebabc7 !important; }
-.bg-lightgrey.bg-hover:hover { background-color: #c3c1c1 !important; }
-.bg-beige.bg-hover:hover { background-color: #e9e9c8 !important; }
-.bg-salmon.bg-hover:hover { background-color: #da886b !important; }
-.bg-darkviolet.bg-hover:hover { background-color: #6e0635 !important; }
-.bg-pastelgreen.bg-hover:hover { background-color: #42b67c !important; }
-.bg-softgreen.bg-hover:hover { background-color: #c6d6ab !important; }
-.bg-darksalmon.bg-hover:hover { background-color: #f17373 !important; }
-.bg-bluegrey.bg-hover:hover { background-color: #b4d1f0 !important; }
-.bg-aquamarine.bg-hover:hover { background-color: #76f0c7 !important; }
-.bg-lightbrown.bg-hover:hover { background-color: #bc7b3b !important; }
-.bg-darkgreen.bg-hover:hover { background-color: #19300e !important; }
-.bg-sun.bg-hover:hover { background-color: #ffe364 !important; }
-.bg-winered.bg-hover:hover { background-color: #830312 !important; }
-.bg-apricot.bg-hover:hover { background-color: #fabd95 !important; }
-.bg-facebook.bg-hover:hover { background-color: #2c4881 !important; }
-.bg-twitter.bg-hover:hover { background-color: #3094d1 !important; }
-.bg-whatsapp.bg-hover:hover { background-color: #42bc51 !important; }
-.bg-instablue.bg-hover:hover { background-color: #324fd8 !important; }
-.bg-instadarkpurple.bg-hover:hover { background-color: #4f49c9 !important; }
-.bg-instapurple.bg-hover:hover { background-color: #7223a7 !important; }
-.bg-instagram.bg-hover:hover { background-color: #ab2973 !important; }
-.bg-instapink.bg-hover:hover { background-color: #c31d55 !important; }
-.bg-instared.bg-hover:hover { background-color: #de0202 !important; }
-.bg-instadarkorange.bg-hover:hover{ background-color: #e95231 !important; }
-.bg-instaorange.bg-hover:hover { background-color: #ff671c !important; }
-.bg-instayellow.bg-hover:hover { background-color: #fca731 !important; }
-.bg-instalightyellow.bg-hover:hover { background-color: #ffd360 !important; }
-.bg-linkedin.bg-hover:hover { background-color: #18569e !important; }
-.bg-youtube.bg-hover:hover { background-color: #f20606 !important; }
-.bg-telegram.bg-hover:hover { background-color: #0878af !important; }
-.bg-wechat.bg-hover:hover { background-color: #70a723 !important; }
-.bg-skype.bg-hover:hover { background-color: #069dd6 !important; }
+.bg-lime.bg-hover:hover { background-color: #05e905; }
+.bg-red.bg-hover:hover { background-color: #f20606; }
+.bg-black.bg-hover:hover { background-color: #2e2d2d; }
+.bg-white.bg-hover:hover { background-color: #f8f6f6; }
+.bg-grey.bg-hover:hover { background-color: #7b7b7b; }
+.bg-gray.bg-hover:hover { background-color: #7b7b7b; }
+.bg-silver.bg-hover:hover { background-color: #aaa6a6; }
+.bg-yellow.bg-hover:hover { background-color: #ffff50; }
+.bg-maroon.bg-hover:hover { background-color: #620202; }
+.bg-purple.bg-hover:hover { background-color: #7022b8; }
+.bg-pink.bg-hover:hover { background-color: #f2178d; }
+.bg-green.bg-hover:hover { background-color: #036803; }
+.bg-olive.bg-hover:hover { background-color: #707001; }
+.bg-navy.bg-hover:hover { background-color: #000059; }
+.bg-aqua.bg-hover:hover { background-color: #00e7e7; }
+.bg-blue.bg-hover:hover { background-color: #0202b4; }
+.bg-orange.bg-hover:hover { background-color: #f69f00; }
+.bg-brown.bg-hover:hover { background-color: #902c2c; }
+.bg-chocolate.bg-hover:hover { background-color: #663401; }
+.bg-gold.bg-hover:hover { background-color: #f0ca00; }
+.bg-neongreen.bg-hover:hover { background-color: #38e517; }
+.bg-turquoise.bg-hover:hover { background-color: #59cec2; }
+.bg-skyblue.bg-hover:hover { background-color: #0dace1; }
+.bg-lavender.bg-hover:hover { background-color: #d4d4f4; }
+.bg-violet.bg-hover:hover { background-color: #9d2f71; }
+.bg-rosa.bg-hover:hover { background-color: #ebabc7; }
+.bg-lightgrey.bg-hover:hover { background-color: #c3c1c1; }
+.bg-beige.bg-hover:hover { background-color: #e9e9c8; }
+.bg-salmon.bg-hover:hover { background-color: #da886b; }
+.bg-darkviolet.bg-hover:hover { background-color: #6e0635; }
+.bg-pastelgreen.bg-hover:hover { background-color: #42b67c; }
+.bg-softgreen.bg-hover:hover { background-color: #c6d6ab; }
+.bg-darksalmon.bg-hover:hover { background-color: #f17373; }
+.bg-bluegrey.bg-hover:hover { background-color: #b4d1f0; }
+.bg-aquamarine.bg-hover:hover { background-color: #76f0c7; }
+.bg-lightbrown.bg-hover:hover { background-color: #bc7b3b; }
+.bg-darkgreen.bg-hover:hover { background-color: #19300e; }
+.bg-sun.bg-hover:hover { background-color: #ffe364; }
+.bg-winered.bg-hover:hover { background-color: #830312; }
+.bg-apricot.bg-hover:hover { background-color: #fabd95; }
+.bg-facebook.bg-hover:hover { background-color: #2c4881; }
+.bg-twitter.bg-hover:hover { background-color: #3094d1; }
+.bg-whatsapp.bg-hover:hover { background-color: #42bc51; }
+.bg-instablue.bg-hover:hover { background-color: #324fd8; }
+.bg-instadarkpurple.bg-hover:hover { background-color: #4f49c9; }
+.bg-instapurple.bg-hover:hover { background-color: #7223a7; }
+.bg-instagram.bg-hover:hover { background-color: #ab2973; }
+.bg-instapink.bg-hover:hover { background-color: #c31d55; }
+.bg-instared.bg-hover:hover { background-color: #de0202; }
+.bg-instadarkorange.bg-hover:hover{ background-color: #e95231; }
+.bg-instaorange.bg-hover:hover { background-color: #ff671c; }
+.bg-instayellow.bg-hover:hover { background-color: #fca731; }
+.bg-instalightyellow.bg-hover:hover { background-color: #ffd360; }
+.bg-linkedin.bg-hover:hover { background-color: #18569e; }
+.bg-youtube.bg-hover:hover { background-color: #f20606; }
+.bg-telegram.bg-hover:hover { background-color: #0878af; }
+.bg-wechat.bg-hover:hover { background-color: #70a723; }
+.bg-skype.bg-hover:hover { background-color: #069dd6; }
 
 
 
