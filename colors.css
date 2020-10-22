@@ -9,7 +9,6 @@ colors framework
     --green: #008000;
     --orange: #ffa500;
     --lime: #00ff00;
-    --red: #ff0000;
     --black: #000000;
     --white: #ffffff;
     --grey: #808080;
@@ -19,12 +18,9 @@ colors framework
     --maroon: #800000;
     --purple: #8a2be2;
     --pink: #ff1493;
-    --green: #008000;
     --olive: #808000;
     --navy: #000080;
     --aqua: #00ffff;
-    --blue: #0000ff;
-    --orange: #ffa500;
     --brown: #a52a2a;
     --chocolate: #7b3f00;
     --gold: #ffd700;
@@ -68,7 +64,10 @@ colors framework
     --telegram: #0088cc;
     --wechat: #7bb32e;
     --skype: #00aff0;
+    --dings: #1d84df;
 }
+
+
 
 /*** text styles ***/
 .text-lime { color: #00ff00; }
@@ -131,6 +130,8 @@ colors framework
 .text-telegram { color: #0088cc; }
 .text-wechat { color: #7bb32e; }
 .text-skype { color: #00aff0; }
+.text-dings { color: #1d84df; }
+
 /*** text hover styles ***/
 .text-lime.text-hover:hover { color: #05e905; }
 .text-red.text-hover:hover { color: #f20606; }
@@ -192,6 +193,7 @@ colors framework
 .text-telegram.text-hover:hover { color: #0878af; }
 .text-wechat.text-hover:hover { color: #70a723; }
 .text-skype.text-hover:hover { color: #069dd6; }
+.text-dings.text-hover:hover { color: #1d84df; }
 
 
 
@@ -256,6 +258,8 @@ colors framework
 .btn-telegram { background-color: #0088cc; color: #ffffff; }
 .btn-wechat { background-color: #7bb32e; color: #ffffff; }
 .btn-skype { background-color: #00aff0; color: #ffffff; }
+.btn-dings { background-color: #1d84df; color: #ffffff; }
+
 /*** button hover styles ***/
 .btn-lime.btn-hover:hover { background-color: #05e905; color: #000000; }
 .btn-red.btn-hover:hover { background-color: #f20606; color: #ffffff; }
@@ -317,6 +321,9 @@ colors framework
 .btn-telegram.btn-hover:hover { background-color: #0878af; color: #ffffff; }
 .btn-wechat.btn-hover:hover { background-color: #70a723; color: #ffffff; }
 .btn-skype.btn-hover:hover { background-color: #069dd6; color: #ffffff; }
+.btn-dings.btn-hover:hover { background-color: #1d84df; color: #ffffff; }
+
+
 
 /*** background styles ***/
 .bg-lime { background-color: #00ff00; }
@@ -379,6 +386,8 @@ colors framework
 .bg-telegram { background-color: #0088cc; }
 .bg-wechat { background-color: #7bb32e; }
 .bg-skype { background-color: #00aff0; }
+.bg-dings { background-color: #1d84df; }
+
 /*** background hover styles ***/
 .bg-lime.bg-hover:hover,
 .bg-lime.bg-hover:hover > .btn-lime { background-color: #05e905; }
@@ -471,35 +480,37 @@ colors framework
 .bg-whatsapp.bg-hover:hover,
 .bg-whatsapp.bg-hover:hover > .btn-whatsapp { background-color: #42bc51; }
 .bg-instablue.bg-hover:hover,
-.bg-instablue.bg-hover:hover > .btn-instablue  { background-color: #324fd8; }
+.bg-instablue.bg-hover:hover > .btn-instablue { background-color: #324fd8; }
 .bg-instadarkpurple.bg-hover:hover,
-.bg-instadarkpurple.bg-hover:hover > .btn-instadarkpurple  { background-color: #4f49c9; }
+.bg-instadarkpurple.bg-hover:hover > .btn-instadarkpurple { background-color: #4f49c9; }
 .bg-instapurple.bg-hover:hover,
-.bg-instapurple.bg-hover:hover > .btn-instapurple  { background-color: #7223a7; }
+.bg-instapurple.bg-hover:hover > .btn-instapurple { background-color: #7223a7; }
 .bg-instagram.bg-hover:hover,
-.bg-instagram.bg-hover:hover > .btn-instagram  { background-color: #ab2973; }
+.bg-instagram.bg-hover:hover > .btn-instagram { background-color: #ab2973; }
 .bg-instapink.bg-hover:hover,
-.bg-instapink.bg-hover:hover > .btn-instapink  { background-color: #c31d55; }
+.bg-instapink.bg-hover:hover > .btn-instapink { background-color: #c31d55; }
 .bg-instared.bg-hover:hover,
-.bg-instared.bg-hover:hover > .btn-instared  { background-color: #de0202; }
+.bg-instared.bg-hover:hover > .btn-instared { background-color: #de0202; }
 .bg-instadarkorange.bg-hover:hover,
 .bg-instadarkorange.bg-hover:hover > .btn-instadarkorange { background-color: #e95231; }
 .bg-instaorange.bg-hover:hover,
-.bg-instaorange.bg-hover:hover > .btn-instaorange  { background-color: #ff671c; }
+.bg-instaorange.bg-hover:hover > .btn-instaorange { background-color: #ff671c; }
 .bg-instayellow.bg-hover:hover,
-.bg-instayellow.bg-hover:hover > .btn-instayellow  { background-color: #fca731; }
+.bg-instayellow.bg-hover:hover > .btn-instayellow { background-color: #fca731; }
 .bg-instalightyellow.bg-hover:hover,
-.bg-instalightyellow.bg-hover:hover > .btn-instalightyellow  { background-color: #ffd360; }
+.bg-instalightyellow.bg-hover:hover > .btn-instalightyellow { background-color: #ffd360; }
 .bg-linkedin.bg-hover:hover,
-.bg-linkedin.bg-hover:hover > .btn-linkedin  { background-color: #18569e; }
+.bg-linkedin.bg-hover:hover > .btn-linkedin { background-color: #18569e; }
 .bg-youtube.bg-hover:hover,
-.bg-youtube.bg-hover:hover > .btn-youtube  { background-color: #f20606; }
+.bg-youtube.bg-hover:hover > .btn-youtube { background-color: #f20606; }
 .bg-telegram.bg-hover:hover,
-.bg-telegram.bg-hover:hover > .btn-telegram  { background-color: #0878af; }
+.bg-telegram.bg-hover:hover > .btn-telegram { background-color: #0878af; }
 .bg-wechat.bg-hover:hover,
-.bg-wechat.bg-hover:hover > .btn-wechat  { background-color: #70a723; }
+.bg-wechat.bg-hover:hover > .btn-wechat { background-color: #70a723; }
 .bg-skype.bg-hover:hover,
-.bg-skype.bg-hover:hover > .btn-skype  { background-color: #069dd6; }
+.bg-skype.bg-hover:hover > .btn-skype { background-color: #069dd6; }
+.bg-dings.bg-hover:hover,
+.bg-dings.bg-hover:hover > .btn-dings { background-color: #1d84df; }
 
 
 
@@ -565,6 +576,8 @@ colors framework
 .btn-telegram.btn-outline { border-color: #0088cc; color: #0088cc; }
 .btn-wechat.btn-outline { border-color: #7bb32e; color: #7bb32e; }
 .btn-skype.btn-outline { border-color: #00aff0; color: #00aff0; }
+.btn-dings.btn-outline { border-color: #1d84df; color: #1d84df; }
+
 /*** outline hover styles ***/
 .btn-lime.btn-out.btn-outline.btn-hover:hover { background-color: #05e905; color: #000000; }
 .btn-red.btn-outline.btn-hover:hover { background-color: #f20606; color: #ffffff; }
@@ -626,11 +639,12 @@ colors framework
 .btn-telegram.btn-outline.btn-hover:hover { background-color: #0878af; color: #ffffff; }
 .btn-wechat.btn-outline.btn-hover:hover { background-color: #70a723; color: #ffffff; }
 .btn-skype.btn-outline.btn-hover:hover { background-color: #069dd6; color: #ffffff; }
+.btn-dings.btn-outline.btn-hover:hover { background-color: #1d84df; color: #ffffff; }
 
 
 
 /*** some css for appearance ***/
-.demo-grid {
+/* .demo-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
@@ -644,4 +658,4 @@ colors framework
 
 .demo-grid .only-text {
     grid-column: 1;
-}
+} */
