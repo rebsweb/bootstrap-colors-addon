@@ -259,6 +259,7 @@ colors framework
 .btn-wechat { background-color: #7bb32e; color: #ffffff; }
 .btn-skype { background-color: #00aff0; color: #ffffff; }
 .btn-dings { background-color: #1d84df; color: #ffffff; }
+.btn-transparent { background-color: transparent }
 
 /*** button hover styles ***/
 .btn-lime.btn-hover:hover { background-color: #05e905; color: #000000; }
@@ -387,6 +388,7 @@ colors framework
 .bg-wechat { background-color: #7bb32e; }
 .bg-skype { background-color: #00aff0; }
 .bg-dings { background-color: #1d84df; }
+.bg-transparent { background-color: transparent }
 
 /*** background hover styles ***/
 .bg-lime.bg-hover:hover,
