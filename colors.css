@@ -64,7 +64,11 @@ colors framework
     --telegram: #0088cc;
     --wechat: #7bb32e;
     --skype: #00aff0;
-    --dings: #1d84df;
+    --dings-blue: #1d84df;
+    --dings-darkblue: #00008b;
+    --dings-green: #02dc4f;
+    --dings-red: #dc2430;
+    --dings-darkred: #670209;
 }
 
 
@@ -130,7 +134,11 @@ colors framework
 .text-telegram { color: #0088cc; }
 .text-wechat { color: #7bb32e; }
 .text-skype { color: #00aff0; }
-.text-dings { color: #1d84df; }
+.text-dings-blue { color: #1d84df; }
+.text-dings-darkblue { color: #00008b; }
+.text-dings-green { color: #02dc4f; }
+.text-dings-red { color: #dc2430; }
+.text-dings-darkred { color: #670209; }
 
 /*** text hover styles ***/
 .text-lime.text-hover:hover { color: #05e905; }
@@ -193,7 +201,11 @@ colors framework
 .text-telegram.text-hover:hover { color: #0878af; }
 .text-wechat.text-hover:hover { color: #70a723; }
 .text-skype.text-hover:hover { color: #069dd6; }
-.text-dings.text-hover:hover { color: #1d84df; }
+.text-dings-blue.text-hover:hover { color: #1d84df; }
+.text-dings-darkblue.text-hover:hover { color: #00008b; }
+.text-dings-green.text-hover:hover { color: #02dc4f; }
+.text-dings-red.text-hover:hover { color: #dc2430; }
+.text-dings-darkred.text-hover:hover { color:#670209; }
 
 
 
@@ -258,7 +270,11 @@ colors framework
 .btn-telegram { background-color: #0088cc; color: #ffffff; }
 .btn-wechat { background-color: #7bb32e; color: #ffffff; }
 .btn-skype { background-color: #00aff0; color: #ffffff; }
-.btn-dings { background-color: #1d84df; color: #ffffff; }
+.btn-dings-blue { background-color: #1d84df; color: #ffffff; }
+.btn-dings-darkblue { background-color: #00008b; color: #ffffff; }
+.btn-dings-green { background-color: #02dc4f; color: #000000; }
+.btn-dings-red { background-color: #dc2430; color: #ffffff; }
+.btn-dings-darkred { background-color: #670209; color: #ffffff; }
 .btn-transparent { background-color: transparent }
 
 /*** button hover styles ***/
@@ -322,7 +338,11 @@ colors framework
 .btn-telegram.btn-hover:hover { background-color: #0878af; color: #ffffff; }
 .btn-wechat.btn-hover:hover { background-color: #70a723; color: #ffffff; }
 .btn-skype.btn-hover:hover { background-color: #069dd6; color: #ffffff; }
-.btn-dings.btn-hover:hover { background-color: #1d84df; color: #ffffff; }
+.btn-dings-blue.btn-hover:hover { background-color: #1d84df; color: #ffffff; }
+.btn-dings-darkblue.btn-hover:hover { background-color: #00008b; color: #ffffff; }
+.btn-dings-green.btn-hover:hover { background-color: #02dc4f; color: #000000; }
+.btn-dings-red.btn-hover:hover { background-color: #dc2430; color: #ffffff; }
+.btn-dings-darkred.btn-hover:hover { background-color: #670209; color: #ffffff; }
 
 
 
@@ -387,7 +407,11 @@ colors framework
 .bg-telegram { background-color: #0088cc; }
 .bg-wechat { background-color: #7bb32e; }
 .bg-skype { background-color: #00aff0; }
-.bg-dings { background-color: #1d84df; }
+.bg-dings-blue { background-color: #1d84df; }
+.bg-dings-darkblue { background-color: #00008b; }
+.bg-dings-green { background-color: #02dc4f; }
+.bg-dings-red { background-color: #dc2430; }
+.bg-dings-darkred { background-color: #670209; }
 .bg-transparent { background-color: transparent }
 
 /*** background hover styles ***/
@@ -511,8 +535,16 @@ colors framework
 .bg-wechat.bg-hover:hover > .btn-wechat { background-color: #70a723; }
 .bg-skype.bg-hover:hover,
 .bg-skype.bg-hover:hover > .btn-skype { background-color: #069dd6; }
-.bg-dings.bg-hover:hover,
-.bg-dings.bg-hover:hover > .btn-dings { background-color: #1d84df; }
+.bg-dings-blue.bg-hover:hover,
+.bg-dings-blue.bg-hover:hover > .btn-dings-blue { background-color: #1d84df; }
+.bg-dings-darkblue.bg-hover:hover,
+.bg-dings-darkblue.bg-hover:hover > .btn-dings-darkblue { background-color: #00008b; }
+.bg-dings-green.bg-hover:hover,
+.bg-dings-green.bg-hover:hover > .btn-dings-green { background-color: #02dc4f; }
+.bg-dings-red.bg-hover:hover,
+.bg-dings-red.bg-hover:hover > .btn-dings-red { background-color: #dc2430; }
+.bg-dings-darkred.bg-hover:hover,
+.bg-dings-darkred.bg-hover:hover > .btn-dings-darkred { background-color: #670209; }
 
 
 
@@ -578,7 +610,11 @@ colors framework
 .btn-telegram.btn-outline { border-color: #0088cc; color: #0088cc; }
 .btn-wechat.btn-outline { border-color: #7bb32e; color: #7bb32e; }
 .btn-skype.btn-outline { border-color: #00aff0; color: #00aff0; }
-.btn-dings.btn-outline { border-color: #1d84df; color: #1d84df; }
+.btn-dings-blue.btn-outline { border-color: #1d84df; color: #1d84df; }
+.btn-dings-darkblue.btn-outline { border-color: #00008b; color: #00008b; }
+.btn-dings-green.btn-outline { border-color: #02dc4f; color: #02dc4f; }
+.btn-dings-red.btn-outline { border-color: #dc2430; color: #dc2430; }
+.btn-dings-darkred.btn-outline { border-color: #670209; color: #670209; }
 
 /*** outline hover styles ***/
 .btn-lime.btn-out.btn-outline.btn-hover:hover { background-color: #05e905; color: #000000; }
@@ -641,7 +677,11 @@ colors framework
 .btn-telegram.btn-outline.btn-hover:hover { background-color: #0878af; color: #ffffff; }
 .btn-wechat.btn-outline.btn-hover:hover { background-color: #70a723; color: #ffffff; }
 .btn-skype.btn-outline.btn-hover:hover { background-color: #069dd6; color: #ffffff; }
-.btn-dings.btn-outline.btn-hover:hover { background-color: #1d84df; color: #ffffff; }
+.btn-dings-blue.btn-outline.btn-hover:hover { background-color: #1d84df; color: #ffffff; }
+.btn-dings-darkblue.btn-outline.btn-hover:hover { background-color: #00008b; color: #ffffff; }
+.btn-dings-green.btn-outline.btn-hover:hover { background-color: #02dc4f; color: #000000; }
+.btn-dings-red.btn-outline.btn-hover:hover { background-color: #dc2430; color: #ffffff; }
+.btn-dings-darkred.btn-outline.btn-hover:hover { background-color: #670209; color: #ffffff; }
 
 
 
